@@ -24,8 +24,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "watch": "webpack --watch --config webpack.dev.js",
-    "start": "webpack-dev-server --open --config webpack.dev.js",
-    "wstart": "webpack-dev-server --open --config wpdev.js"
+    "start": "webpack-dev-server --open --config webpack.dev.js"
   },
   "dependencies": {
     "vue": "^2.6.10",
